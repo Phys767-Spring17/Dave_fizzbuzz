@@ -1,7 +1,7 @@
 #file located in tests/
 #filename = test_fizzbuzz.py
 
-from fizzbuzz import fizzbuzz
+from fizzbuzz.fizzbuzz import *
 
 def test_fizzbuzz_1():
     assert fizzbuzz(1) == 1
