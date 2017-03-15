@@ -2,6 +2,7 @@
 #filename = test_fizzbuzz.py
 
 from fizzbuzz.fizzbuzz import *
+import pytest
 
 def test_fizzbuzz_1():
     assert fizzbuzz(1) == 1
